@@ -12,8 +12,9 @@ public class DogHouse {
         dogHouse.add(dog);
     }
 
-    public static void remove(Integer id) {
+    public static Dog remove( Integer id) {
         dogHouse.removeAnimalById(id);
+        return null;
     }
 
     public static void remove(Dog dog) {
